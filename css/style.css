@@ -8,15 +8,16 @@ body {
     font-family: arial, sans-serif;
     margin: 0;
 }
+nav{
+    width: 1580px;
+}
 nav ul {
     list-style-type: none;
     padding: 12px 12px 0 12px;
     margin: 0;
-    /* border: 1px solid green; */
     text-align: right;
 }
 nav li {
-    /* border: 1px solid red; */
     display: inline-block;
     padding: 0 15px;
     font-size: 13px;      
@@ -24,7 +25,6 @@ nav li {
 nav a {
     text-decoration: none;
     color: black;
-    /* margin: 3px 0; */
     line-height: 28px;
 }
 nav a:hover:not([class= "btn"]) {
@@ -61,6 +61,7 @@ nav .btn {
     height: 50px;
     margin: 0 auto;
     border-radius: 50px;
+    box-shadow: 0 0 3px #ececee, 0 0 5px #ececee;
 }
 .main .searchbox input {
     width: 500px;
@@ -69,6 +70,11 @@ nav .btn {
     font-size: 16px;
     border: transparent;
     outline: none;
+    padding: 0 10px;
+}
+.main .searchbox input::placeholder {
+    color: #8B8B8B;
+    font-size: 15px;
 }
 .main button {
     margin: 2rem 0.5rem;
@@ -115,10 +121,9 @@ nav .btn {
 }
 footer {
     position: fixed;
-    width: 100%;
+    width: 1600px;
     position: fixed;
     bottom: 0px; 
-    width: 100%;
 }
 footer p {
     border-top: outset;
