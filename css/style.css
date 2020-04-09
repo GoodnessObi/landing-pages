@@ -12,7 +12,7 @@ body {
 }
 
 nav{
-    width: 1580px;
+    width: 100%;
 }
 
 nav ul {
@@ -147,8 +147,7 @@ nav .btn {
 
 footer {
     position: fixed;
-    width: 1600px;
-    position: fixed;
+    width: 100%;
     bottom: 0px; 
 }
 
