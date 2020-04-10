@@ -49,7 +49,7 @@ nav {
     background-color: #FFFFFF;
 }
 
-#navbar #email {
+/* #navbar #email {
     margin-top: 0;
     margin-bottom: 8px;
 }
@@ -60,21 +60,21 @@ background-color: #FFFFFF;
 
 #navbar #email label {
     margin-bottom: 5px;
-}
+} */
 
-#navbar #password p {
+/* #navbar #password p {
     margin: 0;
     font-size: 12px;  
-}
+} */
 
-#navbar #password a {
+/* #navbar #password a {
     color: #9CB4DB;
     text-decoration: none;
-}
+} */
 
-#navbar #password a:hover {
+/* #navbar #password a:hover {
     text-decoration: underline;
-}
+} */
 
 #navbar form input {
     width: 9rem;
@@ -264,3 +264,4 @@ footer ul a:hover {
 footer p {
     padding-bottom: 30px;
 }
+
