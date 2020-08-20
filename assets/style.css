@@ -1,0 +1,40 @@
+html {
+	box-sizing: border-box;
+}
+body {
+	background: #f0f2f5;
+	/* min-height: 100vh; */
+	font-family: Helvatica, Arial, sans-serif;
+	padding-bottom: 112px;
+	padding-top: 72px;
+	font-size: 12px;
+}
+.container {
+	width: 1060px;
+	min-width: 1060px;
+	border: 2px solid green;
+	margin: 0 auto;
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	gap: 10px;
+}
+
+.left {
+	grid-column: 1/6;
+	border: 1px solid rebeccapurple;
+}
+
+.logo {
+	height: 106px;
+	margin: -28px;
+}
+.right {
+	grid-column: 6/13;
+	border: 1px solid red;
+}
+
+.text {
+	color: #1c1e21;
+}
